@@ -1,0 +1,294 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.nav-bar {
+    position: absolute;
+    width: 1440px;
+    height: 109px;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.spotify{
+    position: absolute;
+    width: 223px;
+    height: 79px;
+    align-items: center;
+}
+
+.one {
+    float: right;
+    margin-top: 40px;
+}
+
+.one button a {
+    text-decoration: none;
+    font-size: large;
+    padding: 0 15px;
+    margin-right: 0px;
+    font-weight: bold;
+}
+
+.nav-bar .one button {
+    border: none;
+}
+
+.imagess {
+    position: absolute;
+    width: 100%;
+    height: 129%;
+    /* left: 1507px; */
+    top: 100px;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    background-color: #171111;
+}
+
+
+.imagess img {
+    /* padding-top: 10%; */
+    position: absolute;
+    width: 728px;
+    height: 584px;
+    left: 0px;
+    top: 250px;
+
+}
+
+.imagess form {
+    position: absolute;
+    width: 497px;
+    height: 584px;
+    left: 850px;
+    top: 250px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+
+.imagess form span {
+    background-color: white;
+    color: #28d46c;
+    text-decoration: underline;
+}
+
+.imagess form button {
+    background-color: #28d46c;
+    color: #28d46c;
+}
+
+.name,
+.email,
+.pass,
+.tandc,
+.spp,
+.signup,
+.login {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.name{
+    position: absolute;
+    width: 194px;
+    height: 17px;
+    left: 36px;
+    top: 35px;
+}
+.email{
+    position: absolute;
+    width: 194px;
+    height: 5px;
+    left: 0px;
+    top: 130px;
+}
+.pass{
+    position: absolute;
+    width: 194px;
+    height: 5px;
+    left: 6px;
+    top: 220px;
+}
+.name-1{
+    position: absolute;
+    width: 405px;
+    height: 52px;
+    left: 42px;
+    background-color: white;
+    border: 1px solid #ACACAC;
+    border-radius: 7px;
+}
+.email-1{
+    position: absolute;
+    width: 405px;
+    height: 52px;
+    top: 148px;
+    left: 42px;
+    background-color: white;
+    border: 1px solid #ACACAC;
+    border-radius: 7px;
+}
+.pass-1{
+    position: absolute;
+    width: 405px;
+    height: 52px;
+    top: 240px;
+    left: 42px;
+    background-color: white;
+    border: 1px solid #ACACAC;
+    border-radius: 7px;
+}
+.tandc{
+    position: absolute;
+    top: 319px;
+    margin: 0px 51px;
+    font-size: 12px;
+}
+.signup{
+    position: absolute;
+    width: 355px;
+    height: 69px;
+    left: 74px;
+    top: 417px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background: #26D769;
+    border-radius: 40px;
+}
+.login{
+    position: absolute;
+width: 145px;
+height: 20px;
+left: 179px;
+top: 522px;
+}
+
+.imagess form
+.spp,
+.login {
+    text-align: center;
+    font-size: small;
+}
+
+.imagess form .signup .signup a {
+    background: none;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+.imagess form .signup .signup {
+    height: 30%;
+    width: 80%;
+    border-color: #28d46c;
+    border-radius: 10px;
+}
+
+.form {
+    background-color: #171111;
+}
+
+.bottom {
+    position: absolute;
+    width: 100%;
+    height: 41%;
+    /* left: 1507px; */
+    top: 1200px;
+
+
+    background-color: black;
+}
+
+.bottom img {
+    position: absolute;
+    width: 223px;
+    height: 79px;
+    left: 65px;
+    top: -103px;
+
+}
+
+.bottommiddle {
+    position: absolute;
+    left: 40%;
+    top: -75px;
+    
+
+}
+.company{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #ACACAC;
+}
+.company ul {
+    margin-top: 24px;
+    /* text-decoration: none; */
+   
+
+}
+li{
+    list-style: none;
+    margin: 30px -38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+letter-spacing: 0.05em;
+}
+.bottomright{
+    position: absolute;
+    left: 80%;
+    top: -75px;
+}
+.links{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #ACACAC;
+}
+.drop-down{
+    height: 25px;
+    width: 32.81px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+
+}
+
+/* 
+@media (max-width:1789px){
+    .one{
+        display: none;
+    }
+    
+}
+@media(min-width:1789px){
+   .drop-down{
+    display: none;
+    
+   }
+} */
